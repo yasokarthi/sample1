@@ -1,0 +1,251 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.li a:hover {
+  background-color:green;
+}
+
+
+.container1{
+  display:flex;
+  background-color:grey;
+  margin: 0;
+  padding: 0%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.li {
+    float: left;
+}
+  
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.li a:hover {
+    background-color:green;
+}
+.ul.a {
+    list-style-type: circle;
+}
+.about{
+    margin: 0%;
+    padding: 0%;
+
+}
+.box1{
+    width: 400px;
+    height: 150px;
+    border: 1px solid blue;
+    gap:50px;
+}
+.box2{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+  gap:50px;
+}
+.box3{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+  gap:50px;
+}
+.box4{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+  gap:50px;
+}
+.box5{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box6{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box7{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box8{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box9{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box10{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box11{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.box12{
+  width: 400px;
+  height: 150px;
+  border: 1px solid blue;
+}
+.boxes1{
+  display: flex;
+}
+.boxes2{
+  display: flex;
+}
+.boxes3{
+    display:flex;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #06ace4;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+.container3 {
+  position: relative;
+  width: 1000px;
+  gap:50px;
+}
+
+.images {
+  display: block;
+  width: 1000px;
+  height: auto;
+}
+
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 1000px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #10aa84;
+   
+}
+.overlaysh4{
+     justify-content: center;
+}
+.overlaysh5{
+      justify-content: center;
+}
+
+.container3:hover .overlays {
+  opacity: 1;
+}
+
+.texting {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card-body{
+  width: 500px;
+  height: 300px;
+  border: 1px solid blue;
+}
+.col-md-4>img{
+           width:400px;
+}
+.certifcation{
+       background-color: black;
+      
+}
+.certificate1{
+  background-color: black;
+  display: flex;
+  width:1500px;
+  height: 400px;
+  margin: 0%;
+  padding-top: 200px;
+}
+.certificate1>img{
+  width: 400px;
+  height: 200px;
+}
+
+
+ 
+  
